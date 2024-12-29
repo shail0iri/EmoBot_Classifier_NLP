@@ -5,23 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dataset Overview</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h2 {
-            color: #333;
-        }
-        p {
-            margin: 10px 0;
-        }
-        ul {
-            margin: 10px 0;
-            padding-left: 20px;
-        }
-    </style>
+    Dataset Overview
+    
 </head>
 <body>
 
