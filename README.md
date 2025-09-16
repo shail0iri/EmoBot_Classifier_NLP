@@ -24,29 +24,27 @@ Models: Logistic Regression, Random Forest, LightGBM, XGBoost, CatBoost
 Visualization: Matplotlib, Seaborn, WordCloud
 
 Deployment: Streamlit
+
 ---
 
 ## ⚙️ Installation
-
-Clone this repository:
-```bash
 git clone https://github.com/shail0iri/EmoBot_Classifier_NLP.git
 cd EmoBot_Classifier_NLP.
-'''
+
 ---
-
-
-Install dependencies --
+## Install Dependencies
 pip install -r requirements.txt
 
-▶️ Usage
+---
+
+##▶️ Usage
 Run the Streamlit App
 
-📊 Results
+---
+##📊 Results
 
 Best model: CatBoost
 
 Accuracy: 95%
 
 Macro F1-score: 0.94
-
