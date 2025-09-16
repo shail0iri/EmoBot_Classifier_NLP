@@ -1,37 +1,32 @@
-# EmoBot_using_NLP
+# 🤖 EmoBot Classifier – NLP Emotion Detection
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    Dataset Overview
-    
-</head>
-<body>
+An **end-to-end NLP project** for detecting emotions in text using **machine learning**.  
+This repository covers the full pipeline — from preprocessing and model training to evaluation and an interactive **Streamlit web app**.
 
-<h2>About Dataset</h2>
+---
 
-<h3>Overview:</h3>
-<p>
-    This Emotion Classification dataset is designed to facilitate research and experimentation in the field of natural language processing and emotion analysis. It contains a diverse collection of text samples, each labeled with the corresponding emotion it conveys. Emotions can range from happiness and excitement to anger, sadness, and more.
-</p>
+## 🚀 Features
+- 📊 **Dataset Preprocessing** with spaCy & scikit-learn  
+- 🔎 **Feature Engineering** using TF-IDF  
+- 🧠 **Multiple ML Models** trained: Logistic Regression, Random Forest, LightGBM, XGBoost, CatBoost  
+- 🏆 **CatBoost achieved ~95% accuracy** (best performer)  
+- 🎨 **Visualizations**: emotion distribution, confusion matrix, word clouds  
+- 🌐 **Streamlit App** for real-time emotion classification  
 
-<h3>Content:</h3>
-<p>
-    <strong>Format:</strong> CSV <br>
-    <strong>Labels:</strong> ['anger', 'joy', 'fear']
-</p>
+---
 
-<h3>Use Cases:</h3>
-<ul>
-    <li>Sentiment analysis</li>
-    <li>Emotion classification</li>
-    <li>Emotion-aware applications</li>
-    <li>Customer feedback analysis</li>
-    <li>Social media sentiment monitoring</li>
-    <li>Chatbot and virtual assistant training</li>
-</ul>
-
-</body>
-</html>
+## 📂 Project Structure
+EmoBot_Classifier_NLP/
+│── app/
+│ └── app.py # Streamlit app
+│
+│── data/
+│ └── Emotion_classify_Data.csv # Dataset
+│
+│── models/ # Saved ML models (.pkl files)
+│
+│── notebooks/
+│ └── EmoBot_notebook.ipynb # Training notebook (95% accuracy)
+│
+│── requirements.txt # Dependencies
+│── README.md
