@@ -26,30 +26,15 @@ Visualization: Matplotlib, Seaborn, WordCloud
 Deployment: Streamlit
 ---
 
-## 📂 Project Structure
-EmoBot_Classifier_NLP/
-│── app/
-│ └── app.py # Streamlit app
-│
-│── data/
-│ └── Emotion_classify_Data.csv # Dataset
-│
-│── models/ # Saved ML models (.pkl files)
-│
-│── notebooks/
-│ └── EmoBot_notebook.ipynb # Training notebook (95% accuracy)
-│
-│── requirements.txt # Dependencies
-│── README.md
-
----
-
 ## ⚙️ Installation
 
 Clone this repository:
 ```bash
 git clone https://github.com/shail0iri/EmoBot_Classifier_NLP.git
-cd EmoBot_Classifier_NLP
+cd EmoBot_Classifier_NLP.
+'''
+---
+
 
 Install dependencies --
 pip install -r requirements.txt
