@@ -134,7 +134,7 @@ def main():
         api_key_input = st.text_input(
             "API Key (Groq or Gemini)",
             type="password",
-            value=os.getenv("GROQ_API_KEY") or os.getenv("GEMINI_API_KEY", ""),
+            value= "",
             help="Enter your Groq or Gemini API key. Get Groq key from https://console.groq.com",
         )
         use_llm = st.checkbox(
@@ -156,6 +156,9 @@ After changing those files, rebuild the vector store:
 
         st.header("Supported Emotions")
         st.markdown("Anger, Fear, Joy")
+
+    if not api_key_input:
+        api_key_input = os.getenv("GROQ_API_KEY") or os.getenv("GEMINI_API_KEY", "")
 
     mode = st.radio(
         "Mode",
